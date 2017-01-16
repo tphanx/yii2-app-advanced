@@ -1,0 +1,10 @@
+class_name: ApiTester
+modules:
+    enabled:
+        - REST:
+            url: /v1
+            parts: Json
+            depends: [PhpBrowser, Yii2]
+        #- \ApiBundle\Helper\Api
+    config:
+        - Yii2
